@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.column {
+  float: left;
+  width: 25.0%;
+  padding: 15px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Rulers and Religion</h1>
+  <p>A brief study within populous historical landmarks</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.youtube.com/watch?v=HcshPyzFfNg">INDIA</a>
+  <a href="https://www.youtube.com/watch?v=KwIQSgnn8-U&t=262s">ROME</a>
+  <a href="https://www.youtube.com/watch?v=ZK8zI1Sudx4">EGYPT</a>
+  <a href="https://www.youtube.com/watch?v=AgGUEV0cTeY">BRITAIN</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>INDIA</h2>
+    <p>Chandragupta Maurya was one of the most important rulers in the history of India who is credited with unifying small independent states in India to form a large single kingdom under one administration.Chandragupta Maurya was born in 340 BC in Bihar, and was guided by Chanaka, a great Brahmin economics and political science scholar, who later became his mentor.</p>
+	<br>
+	<p>The spread of Buddhism in many parts of the world is credited to Emperor Ashoka who was the third ruler of the Mauryan Empire. He was also known as ‘Ashoka the Great’ as he ruled almost the entire Indian subcontinent. He focused on expanding his empire continuously. His reign is considered one of India’s most glorious periods.</p>
+	<br>
+	<p>Emperor Krishnadevaraya had a great track record of brilliant achievements and was able to maintain political stability. His success is often compared to that of the greatest emperors of Asia and Europe.</p>
+	<br>
+	<p>King Prithviraj Chauhan, alias Rai Pithora, was a Rajput king and one of the last independent Hindu kings to rule the kingdom of Delhi.TKing Prithviraj Chauhan, alias Rai Pithora, was a Rajput king and one of the last independent Hindu kings to rule the kingdom of Delhi.</p>
+	<br>
+	<p>Chhatrapati Shivaji Maharaj established a royal name for himself in history with his administrative skills by upholding the Swarajya values and the Maratha heritage. He was known for his bravery and tactics with which he won numerous wars against the Mughals.</p>
+    <br>
+	<p>Under his reign the first diplomatic relations between China and India were established. The economy also thrived, and the capital at Kannauj became a great centre of trade. King Harshavardhana can be said to have been a humane emperor. Underprivileged citizens had access to rest- houses which the emperor built, complete with food, drink and medicine. He stayed in touch with his people’s state by travelling across his kingdom to observe the situation.</p>
+	<br>
+	<p>India is home to the world's oldest religions, Hinduism and Buddhism, as well as Jainism. All three evolved from shared beliefs and traditions, such as reincarnation, karma, and liberation and achieving nirvana. These beliefs and traditions evolved in the Indus River Valley around 3500 BCE</p>
+	
+
+	 
+  </div>
+  
+  <div class="column">
+    <h2>EGYPT</h2>
+    <p>Ramesses II was the third pharaoh of the Nineteenth Dynasty of Egypt. He is often regarded as the greatest, most celebrated, and most powerful pharaoh of the New Kingdom, itself the most powerful period of Ancient Egypt.</p>
+	<br>
+	<p>Amenhotep III, also called Amenophis III, king of ancient Egypt (reigned 1390–53 BCE) in a period of peaceful prosperity, who devoted himself to expanding diplomatic contacts and to extensive building in Egypt and Nubia.</p>
+	<br>
+	<p>Hatshepsut re-established the trade networks that had been disrupted,was one of the most prolific builders in Ancient Egypt, commissioning hundreds of construction projects throughout both Upper Egypt and Lower Egypt.</p>
+	<br>
+	<p>Cleopatra was directly involved in the administrative affairs of her domain, tackling crises such as famine by ordering royal granaries to distribute food to the starving populace during a drought at the beginning of her reign.She was also multilingual – historical accounts report her speaking between 5 and 9 languages, including her native Greek, Egyptian, Arabic and Hebrew.
+	
+  </div>
+  
+  <div class="column">
+    <h2>ROME</h2>
+    <p></p>
+  </div>
+  div class="column">
+    <h2>ROME</h2>
+    <p></p>
+  </div>
+  
+  
+</div>
+
+</body>
+</html>
+
+
